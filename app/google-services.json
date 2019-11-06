@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "617686912907",
+    "firebase_url": "https://certamen01app.firebaseio.com",
+    "project_id": "certamen01app",
+    "storage_bucket": "certamen01app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617686912907:android:531123c66db36c39b9698e",
+        "android_client_info": {
+          "package_name": "com.example.certamen1app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617686912907-epjhltg96n3emoeagsjkt588tcv2p0vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmkgNlg0STQ01i9vQN3YEq8ywS0432hL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617686912907-epjhltg96n3emoeagsjkt588tcv2p0vb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
