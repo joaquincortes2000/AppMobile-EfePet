@@ -56,7 +56,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-
         if (!this.checkGPS()){
             alertaGPS();
         }else{
@@ -88,10 +87,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         try {
 
             int gpsSignal = Settings.Secure.getInt(getContentResolver(), Settings.Secure.LOCATION_MODE);
-            if (gpsSignal == 0){
-                return false;
-            }else{
+            if (gpsSignal != 0){
                 return true;
+            }else{
+                return false;
             }
 
         } catch (Settings.SettingNotFoundException e) {
